@@ -4,6 +4,7 @@ Obchodní akademie Uherské Hradiště
 20.5.2026
 
 Úvod
+
 Cílem projektu je vytvořit prostor ve webovém prostředí pro vytváření a spravování repositářů. K tomu využijeme program Gitea, kteroý nainstalujeme pomocí příkazového řádku. Tento úkol si uděláme a zdokumentujeme s postupem pro dva operační systémy.
 
 Projekt Implementace vlastního hostingu pro Git je vhodný pro nastavení vlastního lokálního Gitu. Gitea nám rozšíří Git o webové rozhraní. Je vhodná pro jedince, kteří potřebují aby Git běžel na jejich serveru. Umožňuje více lidem pracovat na jednom projektu a vidět tak historii změn, popisky. Můžeme zde i přiřazovat sobě a ostatním úkoly.
@@ -15,6 +16,7 @@ Výsledek si ověříme tím, že otevřeme na počítači prohlížeč, kde zad
 
 
 Postup řešení
+
 1.	Otevřeme aplikaci Terminál. 
 2.	Zadáme příkaz pro instalaci Gitea pomocí BREW INSTALL GITEA
 3.	Dále se program nainstaluje a spustíme Giteu příkazem BREW SERVICES START GITEA
@@ -47,18 +49,22 @@ servives:
 7. Klikneme NAINSTALOVAT GITEA a po chvíli se dostaneme na hlavní stránku našeho Gitu
 
 Ověření cílů
+
 Stránka se opakovaně správně načetla a data v ní zůstaly bez jakýchkoliv chyb.
 Rozdělení práce
 Dokumentace, návody – Veronika Šustková
 Plánování projektu – Veronika Straňáková, Veronika Šustková
 
 Závěr
+
 Všechny zvolené části projektu se za nás povedly. Je tady více variant, jak využít Gitu ale tahle je za nás nejvíce uživatelsky přívětivá.
 
 Pokud by někdo použil tento návod, tak by si měl dát pozor na zapisování do souboru docker-compose.yml. Dají se zde použít jenom mezery pro odsazení a uživatel si musí pohlídat úroveň řádků.
 
 Bylo by vhodné prozkoumat práci vícero uživatelů na jednom projektu a přidělování úkolů.
+
 Zdroje:
+
 Návod Gitea : Dostupné z: https://docs.gitea.com/installation/install-with-docker Citováno dne [2026-05-20]
 
 Návod videa : Dostupné z: https://www.youtube.com/watch?v=jWN8wCNuyec Citováno dne [2026-05-20]
