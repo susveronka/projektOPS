@@ -51,15 +51,25 @@
 3) Zapíšeme pomocí příkazu nano docker-compose.yml
 
 version: "3"
+
 services:
+
   gitea:
+  
     image: gitea/gitea:latest
+    
     container_name: gitea
+    
     restart: always
+    
     ports:
+    
       - "3000:3000"
+      
       - "2222:22"
+      
     volumes:
+    
       - ./data:/data
 
 4) Následuje příkaz docker-compose up -d
