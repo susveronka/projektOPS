@@ -56,21 +56,21 @@ services:
 
   gitea:
   
-    image: gitea/gitea:latest
+   image: gitea/gitea:latest
     
-    container_name: gitea
+   container_name: gitea
     
-    restart: always
+   restart: always
     
-    ports:
+   ports:
     
-      - "3000:3000"
+   - "3000:3000"
       
-      - "2222:22"
+   - "2222:22"
       
-    volumes:
+   volumes:
     
-      - ./data:/data
+   - ./data:/data
 
 4) Následuje příkaz docker-compose up -d
 
