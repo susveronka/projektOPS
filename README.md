@@ -72,6 +72,9 @@ services:
     
    - ./data:/data
 
+     <img width="1119" height="672" alt="Snímek obrazovky 2026-06-08 v 20 54 26" src="https://github.com/user-attachments/assets/cbb74100-56a2-4ef8-84d9-5ce8455aee3c" />
+
+
 4) Následuje příkaz docker-compose up -d
 
 <img width="652" height="436" alt="Snímek obrazovky 2026-06-08 v 15 40 25" src="https://github.com/user-attachments/assets/18c27a27-fbde-4f6c-bb47-83586fbf1937" />
